@@ -1,0 +1,17 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "poc-producer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LJM",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "kafkajs": "^2.2.4",
+    "pg": "^8.14.1",
+    "uuid": "^11.1.0"
+  }
+}
