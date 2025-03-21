@@ -2,6 +2,14 @@
 
 Este repositório contém projeto pra validar um cenário onde centenas de requisições chegam via API, são enviadas para um Kafka, e um consumer processa os itens da fila. Além de possui stack completa: consumer, producer, monitor e testing.
 
+Para o cenario foi enviado **100.000 requisições** para o producer via API esse processo levou  **1min10seg** sem erros.
+
+Na imagem abaixo, mostra a utilização do recurso CPU e Memoria destacado em vermelho.
+![Recursos ee Memoria.](/doc/recursos_memmoria_cpu.png "Recursos ee Memoria.")
+
+Na imagem abaixo, mostra o tempo de resposta abaixo de 12ms durante o envio. Vale lembrar que é um local e que na internet pode aumentar esse tempo.
+![Tempo de resposta.](/doc/tempo_resposta.png "Tempo de resposta.")
+
 ## 🚀 Tecnologias Utilizadas
 
 - Docker & Docker Compose → Para facilitar o setup do ambiente
