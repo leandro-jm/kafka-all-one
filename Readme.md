@@ -1,4 +1,4 @@
-# Proof of Concept (POC) - Kafka com Node.js e PostgreSQL
+# Kafka com Node.js e PostgreSQL
 
 Este repositório contém uma POC para validar um cenário onde centenas de requisições chegam via API, são enviadas para um Kafka, e um consumer processa os itens da fila.
 
